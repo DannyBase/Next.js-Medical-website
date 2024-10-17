@@ -1,0 +1,194 @@
+
+/** gallery-section **/
+
+.gallery-section{
+  position: relative;
+}
+
+.sortable-masonry .masonry-item{
+  position: relative;
+  float: left;
+  width: 20%;
+}
+
+.sortable-masonry .gallery-block-one{
+  margin: 0px 12px 30px 12px;
+}
+
+.sortable-masonry .items-container{
+  margin: 0px -12px;
+}
+
+.gallery-block-one .inner-box{
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.gallery-block-one .inner-box .image-box{
+  position: relative;
+  display: block;
+  overflow: hidden;
+  background: #0E1136;
+  border-radius: 10px;
+}
+
+.gallery-block-one .inner-box .image-box img{
+  width: 100%;
+  border-radius: 10px;
+  transition: all 500ms ease;
+}
+
+.gallery-block-one .inner-box:hover .image-box img{
+  opacity: 0.4;
+  transform: scale(1.05);
+}
+
+.gallery-block-one .inner-box .view-btn{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 1;
+}
+
+.gallery-block-one .inner-box .view-btn a{
+  position: relative;
+  display: inline-block;
+  font-size: 60px;
+  color: #fff;
+  transform: scale(0,0);
+}
+
+.gallery-block-one .inner-box .view-btn a:hover{
+  color: var(--secondary-color);
+}
+
+.gallery-block-one .inner-box:hover .view-btn a{
+  transform: scale(1,1);
+}
+
+.sortable-masonry .filter-tabs li{
+  position: relative;
+  display: inline-block;
+  margin: 0px 10px;
+  font-size: 18px;
+  line-height: 30px;
+  color: #676767;
+  border: 1px solid rgba(103, 103, 103, 0.3);
+  border-radius: 5px;
+  text-align: center;
+  padding: 9px 30px;
+  cursor: pointer;
+  transition: all 500ms ease;
+}
+
+.sortable-masonry .filter-tabs li.active{
+  color: #fff;
+  background: var(--theme-color);
+  border-color: var(--theme-color);
+}
+
+.gallery-page-section .gallery-block-one .inner-box{
+  margin-bottom: 30px;
+}
+
+
+
+
+
+/** RTL-CSS **/
+
+
+
+
+/** RESPONSIVE-CSS **/
+
+@media only screen and (max-width: 1599px){
+
+}
+
+
+@media only screen and (max-width: 1200px){
+
+
+}
+
+@media only screen and (max-width: 991px){
+
+.sortable-masonry .masonry-item{
+  width: 33.333%;
+}
+
+}
+
+@media only screen and (max-width: 767px){
+
+.sortable-masonry .masonry-item{
+  width: 50%;
+}
+
+.sortable-masonry .filter-tabs li{
+  margin-bottom: 15px;
+}
+
+}
+
+@media only screen and (max-width: 599px){
+
+.sortable-masonry .masonry-item{
+  width: 100%;
+}
+
+}
+
+@media only screen and (max-width: 499px){
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,95 @@
+
+/** error-section **/
+
+.error-section{
+  position: relative;
+}
+
+.error-section .error-image{
+  position: relative;
+  display: block;
+}
+
+.error-section .error-image img{
+  width: 100%;
+}
+
+.error-section h2{
+  display: block;
+  font-size: 64px;
+  line-height: 75px;
+  font-weight: 700;
+  color: var(--secondary-color);
+  margin-bottom: 30px;
+}
+
+.error-section p{
+  display: block;
+  margin-bottom: 50px;
+}
+
+
+
+
+
+/** RTL-CSS **/
+
+
+
+
+
+/** RESPONSIVE-CSS **/
+
+
+@media only screen and (max-width: 767px){
+
+  .error-section h2 br,
+  .error-section p br{
+    display: none;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

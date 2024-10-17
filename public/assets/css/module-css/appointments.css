@@ -1,0 +1,161 @@
+
+/** appointment-section **/
+
+.appointment-section{
+  position: relative;
+}
+
+.appointment-section .default-form .form-group{
+  margin-bottom: 30px;
+}
+
+.appointment-section .default-form .form-group:last-child{
+  margin-bottom: 0px;
+}
+
+.appointment-section .default-form .form-group label{
+  position: relative;
+  display: block;
+  font-size: 18px;
+  line-height: 30px;
+  color: var(--title-color);
+  margin-bottom: 10px;
+}
+
+.appointment-section .default-form .form-group .selectmenu{
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 0px 30px;
+  background: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  color: #000;
+  transition: all 500ms ease;
+ 
+}
+
+.appointment-section .default-form .form-group .selectmenu:before{
+  position: relative;
+  content: "\f0d7";
+  font-family: 'Font Awesome 5 Pro';
+  top: 0px;
+  right: 30px;
+  padding: 0px 30px;
+  font-size: 24px;
+  color: var(--text-color);
+  font-weight: 900;
+}
+
+.appointment-section .default-form .form-group input,
+.appointment-section .default-form .form-group textarea{
+  background: #fff;
+}
+
+.appointment-section .form-inner{
+  position: relative;
+  padding: 60px;
+}
+
+.appointment-section .bg-layer{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: calc(100% - 312px);
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+
+
+
+/** RTL-CSS **/
+
+
+
+
+/** RESPONSIVE-CSS **/
+
+
+@media only screen and (max-width: 1200px){
+
+  .appointment-section .bg-layer{
+    width: 100%;
+  }
+
+}
+
+@media only screen and (max-width: 991px){
+
+
+}
+
+@media only screen and (max-width: 767px){
+
+
+
+}
+
+@media only screen and (max-width: 599px){
+
+  .appointment-section .form-inner{
+    padding: 60px 30px;
+  }
+
+}
+
+@media only screen and (max-width: 499px){
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

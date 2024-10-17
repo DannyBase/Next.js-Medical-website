@@ -1,0 +1,209 @@
+
+/** process-section **/
+
+.process-section{
+  position: relative;
+}
+
+.process-section .inner-container{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.processing-block-one{
+  max-width: 306px;
+}
+
+.processing-block-one .inner-box{
+  position: relative;
+  display: block;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.processing-block-one .inner-box .image-box{
+  position: relative;
+  display: block;
+  background: #fff;
+  box-shadow: 0px 2px 70px rgba(0, 0, 0, 0.1);
+  border-radius: 40px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.processing-block-one .inner-box .image-box img{
+  width: 100%;
+  border-radius: 30px;
+}
+
+.processing-block-one .inner-box .lower-content h3{
+  display: block;
+  font-size: 26px;
+  line-height: 36px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.processing-block-one .inner-box .count-text{
+  position: absolute;
+  left: -130px;
+  top: 0px;
+  font-size: 100px;
+  line-height: 100px;
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.1);
+}
+
+.processing-block-one:nth-child(2) .inner-box .count-text{
+  left: -110px;
+}
+
+.process-section .arrow-shape{
+  position: absolute;
+  left: 0px;
+  top: 90px;
+  width: 1479px;
+  height: 122px;
+  background-repeat: no-repeat;
+}
+
+.process-section .pattern-layer{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 460px;
+  height: 568px;
+  background-repeat: no-repeat;
+}
+
+.process-section .shape .shape-1{
+  position: absolute;
+  left: 262px;
+  top: 159px;
+  width: 27px;
+  height: 56px;
+  background-repeat: no-repeat;
+}
+
+.process-section .shape .shape-2{
+  position: absolute;
+  left: 180px;
+  bottom: 134px;
+  width: 10px;
+  height: 58px;
+  background-repeat: no-repeat;
+}
+
+.process-section .shape .shape-3{
+  position: absolute;
+  top: 160px;
+  right: 400px;
+  width: 19px;
+  height: 19px;
+  border: 3px solid var(--secondary-color);
+  border-radius: 50%;
+}
+
+
+
+
+
+
+
+/** RTL-CSS **/
+
+
+
+
+
+/** RESPONSIVE-CSS **/
+
+
+@media only screen and (max-width: 1200px){
+
+  .processing-block-one .inner-box .count-text{
+    position: relative;
+    left: 0px;
+    margin-bottom: 20px;
+  }
+
+}
+
+@media only screen and (max-width: 991px){
+
+  
+
+}
+
+@media only screen and (max-width: 767px){
+
+  .process-section .inner-container{
+    display: block;
+  }
+
+  .processing-block-one{
+    margin: 0 auto;
+  }
+
+  .process-section .shape,
+  .process-section .arrow-shape,
+  .process-section .pattern-layer{
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

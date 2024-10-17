@@ -1,0 +1,152 @@
+
+/** faq-section **/
+
+.faq-section{
+  position: relative;
+}
+
+.accordion{
+  position: relative;
+  background: #fff;
+  box-shadow: 0px 2px 70px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+
+.accordion .acc-btn{
+  position: relative;
+  padding: 20px 70px 20px 40px;
+  cursor: pointer;
+  background: #fff;
+}
+
+.accordion .acc-btn h5{
+  display: block;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+.accordion .acc-btn.active {
+  background: var(--theme-color);
+}
+
+.accordion .acc-btn.active h5{
+  color: #fff;
+}
+
+.accordion .acc-btn .icon-box{
+  position: absolute;
+  display: inline-block;
+  width: 30px;
+  line-height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  color: var(--title-color);
+  border: 1px solid rgba(103, 103, 103, 1);
+  border-radius: 50%;
+  text-align: center;
+  top: 20px;
+  right: 40px;
+}
+
+.accordion .acc-btn.active .icon-box{
+  transform: rotate(180deg);
+  background: #fff;
+  border-color: #fff;
+}
+
+.accordion .acc-content{
+  padding: 40px;
+}
+
+.faq-section .image-layer{
+  position: absolute;
+  left: 300px;
+  bottom: 0px;
+}
+
+
+
+
+
+/** RTL-CSS **/
+
+
+
+
+/** RESPONSIVE-CSS **/
+
+
+@media only screen and (max-width: 1200px){
+
+  .faq-section .image-layer{
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 991px){
+
+
+}
+
+@media only screen and (max-width: 767px){
+
+
+
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

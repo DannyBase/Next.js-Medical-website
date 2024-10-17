@@ -1,0 +1,146 @@
+
+/** funfact-section **/
+
+.funfact-section{
+  position: relative;
+}
+
+.funfact-block-one .inner-box{
+  position: relative;
+  display: block;
+  background: #fff;
+  box-shadow: 0px 2px 70px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 40px;
+}
+
+.funfact-block-one .inner-box .count-outer{
+  position: relative;
+  display: block;
+  font-size: 50px;
+  line-height: 65px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #0E1136;
+}
+
+.funfact-block-one .inner-box .count-outer .symble{
+  font-weight: 300;
+}
+
+
+.funfact-block-one .inner-box .text{
+  position: relative;
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 500;
+  color: var(--secondary-color);
+  background: #F4F3F8;
+  border-radius: 8px;
+  padding: 12px 15px;
+}
+
+.funfact-section .inner-container{
+  position: relative;
+  z-index: 1;
+  margin-top: -105px;
+}
+
+.funfact-section .bg-layer{
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  height: 50%;
+}
+
+
+
+
+
+
+
+
+/** RTL-CSS **/
+
+
+
+
+
+/** RESPONSIVE-CSS **/
+
+
+@media only screen and (max-width: 1200px){
+
+
+
+}
+
+@media only screen and (max-width: 991px){
+
+  .funfact-block-one .inner-box{
+    margin-bottom: 30px;
+  }
+
+}
+
+@media only screen and (max-width: 767px){
+
+  
+
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

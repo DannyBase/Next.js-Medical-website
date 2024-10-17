@@ -1,0 +1,364 @@
+
+/** testimonial-section **/
+
+.testimonial-section{
+  position: relative;
+}
+
+.testimonial-section .bg-layer{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 50%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.testimonial-section .owl-carousel .owl-stage-outer{
+  overflow: visible;
+}
+
+.testimonial-section .owl-carousel .owl-stage-outer .owl-item{
+  opacity: 0;
+}
+
+.testimonial-section .owl-carousel .owl-stage-outer .owl-item.active{
+  opacity: 1;
+}
+
+.testimonial-block-one .inner-box{
+  position: relative;
+  display: block;
+  background: #fff;
+  box-shadow: 0px 2px 70px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  padding: 50px;
+ 
+}
+
+.testimonial-block-one .inner-box .icon-box{
+  position: absolute;
+  right: 50px;
+  bottom: 60px;
+  font-size: 100px;
+  line-height: 100px;
+  color: rgba(14, 17, 54, 0.1);;
+}
+
+.testimonial-block-one .inner-box p{
+  display: block;
+  font-size: 22px;
+  line-height: 34px;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+
+.testimonial-block-one .inner-box .author-box{
+  position: relative;
+  display: block;
+  padding: 0px 0px 0px 105px;
+}
+
+.testimonial-block-one .inner-box .author-box .author-thumb{
+  position: absolute;
+  display: inline-block;
+  left: 0px;
+  top: 0px;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+.testimonial-block-one .inner-box .author-box .author-thumb img{
+  width: 100%;
+  border-radius: 50%;
+}
+
+.testimonial-block-one .inner-box .author-box .rating li{
+  position: relative;
+  display: inline-block;
+  float: left;
+  font-size: 16px;
+  color: #FCBA11;
+  margin-right: 5px;
+}
+
+.testimonial-block-one .inner-box .author-box .rating li:last-child{
+  margin: 0px !important;
+}
+
+.testimonial-block-one .inner-box .author-box .rating{
+  margin-bottom: 5px;
+}
+
+.testimonial-block-one .inner-box .author-box h3{
+  display: block;
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.testimonial-block-one .inner-box .author-box .designation{
+  position: relative;
+  display: block;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  color: var(--secondary-color);
+}
+
+.testimonial-section .pattern-layer{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 655px;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+/** testimonial-style-two **/
+
+.testimonial-style-two{
+  padding: 114px 0px 160px 0px;
+}
+
+.testimonial-style-two .thumb-box{
+  position: relative;
+  display: inline-block;
+  width: 504px;
+  height: 504px;
+  border-radius: 50%;
+  border: 1px dashed #e5e5e5;
+  margin-top: 60px;
+}
+
+.testimonial-style-two .thumb-box .thumb{
+  position: absolute;
+  border-radius: 50%;
+}
+
+.testimonial-style-two .thumb-box .thumb img{
+  width: 100%;
+  border-radius: 50%;
+}
+
+.testimonial-style-two .thumb-box .thumb-1{
+  top: -47px;
+  left: 203px;
+  -webkit-animation: zoom-fade 4s infinite linear;
+  animation: zoom-fade 4s infinite linear;
+}
+
+.testimonial-style-two .thumb-box .thumb-2{
+  top: 154px;
+  right: -41px;
+  -webkit-animation: zoom-fade 6s infinite linear;
+  animation: zoom-fade 6s infinite linear;
+}
+
+.testimonial-style-two .thumb-box .thumb-3{
+  right: 85px;
+  bottom: -19px;
+  -webkit-animation: zoom-fade 5s infinite linear;
+  animation: zoom-fade 5s infinite linear;
+}
+
+.testimonial-style-two .thumb-box .thumb-4{
+  left: 3px;
+  bottom: 41px;
+  -webkit-animation: zoom-fade 4s infinite linear;
+  animation: zoom-fade 4s infinite linear;
+}
+
+.testimonial-style-two .thumb-box .thumb-5{
+  left: -25px;
+  top: 94px;
+  -webkit-animation: zoom-fade 6s infinite linear;
+  animation: zoom-fade 6s infinite linear;
+}
+
+.testimonial-style-two .thumb-box .thumb-6{
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.testimonial-style-two .thumb-box .thumb-6:before{
+  position: absolute;
+  content: '';
+  border: 1px dashed #e5e5e5;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  left: -35px;
+  top: -35px;
+}
+
+.testimonial-style-two .owl-carousel .owl-stage-outer{
+  overflow: visible;
+}
+
+.testimonial-style-two .owl-carousel .owl-stage-outer .owl-item{
+  opacity: 0;
+}
+
+.testimonial-style-two .owl-carousel .owl-stage-outer .owl-item.active{
+  opacity: 1;
+}
+
+.testimonial-style-two .pattern-layer{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 460px;
+  height: 568px;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+/** RTL-CSS **/
+
+.rtl .testimonial-block-one .inner-box{
+  text-align: right;
+}
+
+.rtl .testimonial-block-one .inner-box .icon-box{
+  right: inherit;
+  left: 50px;
+}
+
+.rtl .testimonial-block-one .inner-box .author-box{
+  padding-left: 0px;
+  padding-right: 105px;
+}
+
+.rtl .testimonial-block-one .inner-box .author-box .author-thumb{
+  left: inherit;
+  right: 0px;
+}
+
+.rtl .testimonial-block-one .inner-box .author-box .rating li{
+  float: right;
+  margin-right: 0px;
+  margin-left: 5px;
+}
+
+
+
+/** RESPONSIVE-CSS **/
+
+
+@media only screen and (max-width: 1200px){
+
+  .testimonial-section .bg-layer{
+    display: none;
+  }
+
+  .testimonial-section .content-box{
+    margin-left: 0px;
+  }
+
+}
+
+@media only screen and (max-width: 991px){
+
+  .testimonial-style-two .thumb-box{
+    margin-top: 0px;
+    margin-bottom: 40px;
+  }
+
+  .testimonial-style-two{
+    padding-bottom: 90px;
+  }
+
+}
+
+@media only screen and (max-width: 767px){
+
+  .testimonial-style-two .thumb-box{
+    display: none;
+  }
+
+  .testimonial-style-two{
+    padding-top: 64px;
+    padding-bottom: 40px;
+  }
+
+}
+
+@media only screen and (max-width: 599px){
+
+}
+
+@media only screen and (max-width: 499px){
+
+  .testimonial-block-one .inner-box .icon-box{
+    position: relative;
+    right: 0px;
+    bottom: 0px;
+    margin-bottom: 20px;
+  }
+
+  .rtl .testimonial-block-one .inner-box .icon-box{
+    left: 0px;
+  }
+
+  .testimonial-block-one .inner-box{
+    padding: 50px 30px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

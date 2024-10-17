@@ -1,0 +1,82 @@
+
+
+
+/* color */
+
+
+.scroll-to-top .scroll-bar-text,
+.sec-title .sub-title,
+.list-style-one li:before,
+.service-block-one .inner-box .lower-content h3 a:hover,
+.team-block-one .inner-box .lower-content h3 a:hover,
+.pricing-block-one .pricing-table .table-header h5,
+.pricing-block-one.active-block .pricing-table .table-header h2,
+.news-block-one .inner-box .lower-content h3 a:hover,
+.feature-block-two .inner-box h3 a:hover,
+.content_block_one .content-box .lower-box .experience-box h3,
+.chooseus-style-two .chooseus-block-one .inner-box .icon-box,
+.team-block-two .inner-box .lower-content h3 a:hover,
+.banner-style-three .content-box .upper-text,
+.banner-style-three .content-box .btn-box .video-btn,
+.info-block-one .inner-box p a:hover,
+.default-sidebar .category-widget .category-list li a:before,
+.blog-sidebar .post-widget .post h6 a:hover
+
+{
+  color: var(--violet-color) !important;
+}
+
+
+
+/** background **/
+
+.switcher .switch_btn button,
+button.rtl,
+button.ltr,
+.theme-btn.btn-one,
+.theme-btn span:before,
+.theme-btn span:after,
+.feature-block-one .inner-box:before,
+.image_block_one .image-box .icon-two,
+.service-block-one .inner-box .image-box .icon-box,
+.video-section .inner-box .video-btn a,
+.theme-btn.btn-three:before,
+.theme-btn.btn-three:after,
+.pricing-block-one.active-block .pricing-table .theme-btn.btn-three,
+.feature-block-two .inner-box .icon-box:before,
+.content_block_one .content-box .lower-box .experience-box .icon-box,
+.progress-box .bar-inner,
+.image_block_two .image-box .icon-box,
+.accordion .acc-btn.active,
+.image_block_three .image-box .icon-box,
+.sortable-masonry .filter-tabs li.active,
+.info-block-one .inner-box .icon-box,
+.pagination li a:hover,
+.pagination li a.current,
+.blog-sidebar .tags-widget .tags-list li a:hover,
+.blog-details-content .post-tags .tags-list li a:hover
+
+{
+  background: var(--violet-color) !important;
+}
+
+
+
+
+/** border-color **/
+
+.theme-btn.btn-three:hover,
+.pricing-block-one.active-block .pricing-table .theme-btn.btn-three,
+.subscribe-section .form-inner .form-group input[type='email']:focus,
+.content_block_one .content-box .lower-box .author-thumb,
+.default-form .form-group input:focus,
+.default-form .form-group textarea:focus,
+.banner-style-three .content-box .btn-box .video-btn,
+.sortable-masonry .filter-tabs li.active,
+.pagination li a:hover,
+.pagination li a.current
+
+{
+  border-color: var(--violet-color) !important;
+}
+
